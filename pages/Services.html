@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="/index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/imgs/bookDocIcon.png" type="image/icon" />
+    <title>BookDoc | Services</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/index.html"
+          ><img src="/imgs/BookDoc_logo.png" alt="BookDoc company logo"
+        /></a>
+      </div>
+      <div class="flexChild"></div>
+      <ul class="flex">
+        <li class="navOptions"><a href="/index.html">Home</a></li>
+        <li class="navOptions"><a href="/pages/AboutUs.html">About Us</a></li>
+        <li class="navOptions"><a href="/pages/Services.html">Services</a></li>
+        <li class="navOptions"><a href="/pages/News.html">News</a></li>
+        <li class="navOptions"><a href="/pages/FAQ.html">FAQ</a></li>
+        <li class="navOptions"><a href="/pages/Contact.html">Contact Us</a></li>
+      </ul>
+    </header>
+    <section class="pageHeader">
+      <h2 class="textAlign services">SERVICES</h2>
+      <div class="centerHorizontal">
+        <ul class="flex">
+          <li onclick="updateTab()" id="tab1">CUSTOMERS</li>
+          <li onclick="updateTab()" id="tab2" class="marginLeft70">
+            HEALTHCARE PROFESSIONALS
+          </li>
+          <li onclick="updateTab()" id="tab3" class="marginLeft70">
+            HOSPITALS
+          </li>
+          <li onclick="updateTab()" id="tab4" class="marginLeft70">
+            CORPORATE
+          </li>
+        </ul>
+      </div>
+    </section>
+    <main class="servicesContainer">
+      <h1 class="textAlign mainHeading">THE SERVICES WE PROVIDE</h1>
+      <div class="spaceEvenly marginBottom150 flex">
+        <div class="servicesOptions">
+          <div class="textAlign">
+            <img src="/imgs/doctorNearby.svg" alt="map icon" id="image1" />
+          </div>
+          <p id="option1" class="textAlign"></p>
+        </div>
+        <div class="servicesOptions">
+          <div class="textAlign">
+            <img src="/imgs/bookOnline.svg" alt="globe icon" id="image2" />
+          </div>
+          <p id="option2" class="textAlign"></p>
+        </div>
+        <div class="servicesOptions">
+          <div class="textAlign">
+            <img src="/imgs/appointment.svg" alt="bell icon" id="image3" />
+          </div>
+          <p id="option3" class="textAlign"></p>
+        </div>
+        <div class="servicesOptions">
+          <div class="textAlign">
+            <img src="/imgs/reducedTime.svg" alt="arrows icon" id="image4" />
+          </div>
+          <p id="option4" class="textAlign"></p>
+        </div>
+      </div>
+      <div class="spaceEvenly flex">
+        <div class="servicesOptions">
+          <div class="textAlign">
+            <img src="/imgs/marketplace.svg" alt="cart icon" id="image5" />
+          </div>
+          <p id="option5" class="textAlign"></p>
+        </div>
+        <div class="servicesOptions" id="container6">
+          <div class="textAlign"><img src="/imgs/free.svg" alt="Free Icon" id="image6" /></div>
+          <p id="option6" class="textAlign"></p>
+        </div>
+        <div class="servicesOptions">
+          <div class="textAlign">
+            <img src="/imgs/stayingActive.svg" alt="gift icon" id="image7" />
+          </div>
+          <p id="option7" class="textAlign"></p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="flex footerheight">
+        <div class="footerInfo">
+          <div class="flex marginBottom25">
+            <img src="/imgs/mapMarker.svg" alt="Map Marker" class="marginRight22" />
+            <p class="fontSize15">
+              Suite 6.03A, Level 6, Menara OBYU, 4, Jalan PJU 8/8A, Damansara Perdana, 47820
+              Petaling Jaya, Selangor
+            </p>
+          </div>
+          <div class="flex marginBottom25">
+            <img src="/imgs/phoneIcon.png" alt="Phone Icon" class="marginRight22" />
+            <p class="fontSize15">
+              1-300-88-2362
+            </p>
+          </div>
+          <div class="flex">
+            <img src="/imgs/mailIcon.png" alt="Mail Icon" class="marginRight22" />
+            <a href="mailto:care@bookdoc.com" class="fontSize15">care@bookdoc.com</a>
+          </div>
+        </div>
+        <div class="flexChild"></div>
+        <div class="footerSocial marginRight112">
+          <div class="flex marginBottom40">
+            <img src="/imgs/fbSquare.png" alt="FB Icon" />
+            <a href="https://www.facebook.com/BookDoc4u/" target="_blank">Facebook</a>
+          </div>
+          <div class="flex marginBottom40">
+            <img src="/imgs/instagramSquare.png" alt="Instagram Icon" />
+            <a href="https://www.instagram.com/bookdoc4u/" target="_blank">Instagram</a>
+          </div>
+        </div>
+        <div class="footerSocial marginRight94">
+          <div class="flex marginBottom40">
+            <img src="/imgs/twitterSquare.png" alt="twitter icon" />
+            <a href="https://twitter.com/bookdoc" target="_blank">Twitter</a>
+          </div>
+          <div class="flex marginBottom40">
+            <img src="/imgs/linkedinSquare.png" alt="Linkedin Icon" />
+            <a href="https://www.linkedin.com/company/bookdoc" target="_blank">Linkedin</a>
+          </div>
+        </div>
+      </div>
+      <div class="colorFooter">
+        <p class="textAlign">Copyright © BookDoc 2020</p>
+      </div>
+    </footer>
+    <script src="../javascript/Services.js"></script>
+  </body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/index.css" />
+    <link rel="icon" href="/imgs/bookDocIcon.png" type="image/icon">
+    <title>BookDoc | Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/index.html"
+          ><img src="/imgs/BookDoc_logo.png" alt="BookDoc company logo"
+        /></a>
+      </div>
+      <div class="flexChild"></div>
+      <ul class="flex">
+        <li class="navOptions"><a href="/index.html">Home</a></li>
+        <li class="navOptions"><a href="/pages/AboutUs.html">About Us</a></li>
+        <li class="navOptions"><a href="/pages/Services.html">Services</a></li>
+        <li class="navOptions"><a href="/pages/News.html">News</a></li>
+        <li class="navOptions"><a href="/pages/FAQ.html">FAQ</a></li>
+        <li class="navOptions"><a href="/pages/Contact.html">Contact Us</a></li>
+      </ul>
+    </header>
+    <section class="pageHeader">
+      <h2 class="textAlign">CONTACT US</h2>
+      <div class="centerHorizontal">
+        <p class="textAlign">Let Us Help You!</p>
+      </div>
+    </section>
+    <section class="location">
+      <h1 class="textAlign mainHeading">OUR LOCATIONS</h1>
+      <div class="map textAlign">
+        <img src="/imgs/bookDocMap.svg" alt="map of BookDoc locations" />
+      </div>
+    </section>
+    <section class="contact-info">
+      <h2 class="textAlign">GET IN TOUCH WITH US</h2>
+      <div class="info-details centerHorizontal">
+        <div class="contact-num marginRight112">
+          <div class="centerHorizontal content-spacing">
+            <img src="/imgs/redPhone.svg" alt="red phone icon" />
+          </div>
+          <div class="content-spacing">
+            <strong>MALAYSIA</strong> &nbsp; 1300-88-2362
+          </div>
+          <div class="content-spacing">
+            <strong>SINGAPORE</strong> &nbsp; 1300-88-2362
+          </div>
+          <div class="content-spacing">
+            <strong>HONG KONG</strong> &nbsp; +852 3952 7235
+          </div>
+          <div class="content-spacing">
+            <strong>THAILAND</strong> &nbsp; +662 686 1208
+          </div>
+        </div>
+        <div class="location-info marginRight112">
+          <div class="centerHorizontal content-spacing">
+            <img src="/imgs/redMarker.svg" alt="red map marker" />
+          </div>
+          <div class="content-spacing">
+            <strong>MALAYSIA</strong><br />
+            6.03A, Level 6, Menara OBYU 4, Jalan PJU 8/8A, Damansara Perdana
+            47820 Petaling Jaya, Selangor, Malaysia.
+          </div>
+          <div class="content-spacing">
+            <strong>SINGAPORE</strong> <br />
+            BOOKDOC PTE. LTD (201625196W) 6 Shenton Way #22-08, OUE Downtown 2,
+            Singapore 068809
+          </div>
+          <div class="content-spacing">
+            <strong>HONG KONG</strong> <br />
+            9/F, 33 Des Voeux Road Central, Central, Hong Kong
+          </div>
+          <div class="content-spacing">
+            <strong>THAILAND</strong> <br />
+            1 Empire Tower, 47th Floor, Unit 4703, 4704, 4709, 4710 South
+            Sathorn Road, Yannawa, Sathorn Bangkok, 10120, Thailand.
+          </div>
+        </div>
+        <div class="fax-info">
+          <div class="centerHorizontal content-spacing">
+            <img src="/imgs/Fax.svg" alt="fax icon" />
+          </div>
+          <div class="content-spacing">
+            <strong>MALAYSIA</strong> &nbsp; +603-7733 0408
+          </div>
+          <div class="content-spacing">
+            <strong>SINGAPORE</strong> &nbsp; +603-7733 0408
+          </div>
+          <div class="content-spacing">
+            <strong>HONG KONG</strong> &nbsp; +852 3464 0809
+          </div>
+          <div class="content-spacing">
+            <strong>THAILAND</strong> &nbsp; +662 686 3499
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feedback-form">
+      <div class="feedback-container">
+        <h1>GOT ANY QUESTIONS FOR US?</h1>
+        <h2>ASK AWAY AND WE'LL GET BACK TO YOU</h2>
+        <form>
+          <div class="flex">
+            <div>
+              <div class="name-input marginBottom40">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+              <div class="email-input">
+                <label for="email">Email Address</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-cols">
+              <div class="country-input marginBottom40">
+                <label for="country">Country</label>
+                <select name="country" id="country" required>
+                  <option disabled selected value>Select Country</option>
+                  <option value="malaysia">Malaysia</option>
+                  <option value="singapore">Singapore</option>
+                  <option value="hongkong">Hong Kong</option>
+                  <option value="thailand">Thailand</option>
+                </select>
+              </div>
+              <div class="number-input">
+                <label for="phone">Phone Number</label>
+                <input type="text" name="phone" id="phone" autocomplete="off" required />
+              </div>
+            </div>
+          </div>
+          <div class="message-box">
+            <label for="feedbackMessage">Your Message</label>
+            <textarea name="feedbackMessage" id="feedbackMessage" maxlength="2500"></textarea>
+          </div>
+          <div class="submitBox textAlign">
+            <input type="submit" class="submitButton marginTop50" value="SUBMIT MESSAGE" onclick="window.location='/pages/thankyou.html'">
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="flex footerheight">
+        <div class="footerInfo">
+          <div class="flex marginBottom25">
+            <img
+              src="/imgs/mapMarker.svg"
+              alt="Map Marker"
+              class="marginRight22"
+            />
+            <p class="fontSize15">
+              Suite 6.03A, Level 6, Menara OBYU, 4, Jalan PJU 8/8A, Damansara
+              Perdana, 47820 Petaling Jaya, Selangor
+            </p>
+          </div>
+          <div class="flex marginBottom25">
+            <img
+              src="/imgs/phoneIcon.png"
+              alt="Phone Icon"
+              class="marginRight22"
+            />
+            <p class="fontSize15">
+              1-300-88-2362
+            </p>
+          </div>
+          <div class="flex">
+            <img
+              src="/imgs/mailIcon.png"
+              alt="Mail Icon"
+              class="marginRight22"
+            />
+            <a href="mailto:care@bookdoc.com" class="fontSize15"
+              >care@bookdoc.com</a
+            >
+          </div>
+        </div>
+        <div class="flexChild"></div>
+        <div class="footerSocial marginRight112">
+          <div class="flex marginBottom40">
+            <img src="/imgs/fbSquare.png" alt="FB Icon" />
+            <a href="https://www.facebook.com/BookDoc4u/" target="_blank"
+              >Facebook</a
+            >
+          </div>
+          <div class="flex marginBottom40">
+            <img src="/imgs/instagramSquare.png" alt="Instagram Icon" />
+            <a href="https://www.instagram.com/bookdoc4u/" target="_blank"
+              >Instagram</a
+            >
+          </div>
+        </div>
+        <div class="footerSocial marginRight94">
+          <div class="flex marginBottom40">
+            <img src="/imgs/twitterSquare.png" alt="twitter icon" />
+            <a href="https://twitter.com/bookdoc" target="_blank">Twitter</a>
+          </div>
+          <div class="flex marginBottom40">
+            <img src="/imgs/linkedinSquare.png" alt="Linkedin Icon" />
+            <a href="https://www.linkedin.com/company/bookdoc" target="_blank"
+              >Linkedin</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="colorFooter">
+        <p class="textAlign">Copyright © BookDoc 2020</p>
+      </div>
+    </footer>
+  </body>
+</html>
